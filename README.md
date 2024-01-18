@@ -5,7 +5,7 @@
 **Project** : Ecommerce modernization using Search Migrator  
 **Team Number** : _insert team number here_  
 **Team Name** : TeamChicago  
-**Demonstration Video** : _Insert link to demonstration video_  
+**Demonstration Video** : See video below!
 
 # Overview
 We will demonstrate a process and prototype to modernize a product catalog using a Search migrator application powered by GenAI that converts Elasticsearch indexes and queries to Atlas Search components. The modernized product catalog on Atlas Search will also showcase powerful in-app search, and a chatbot powered by MongoDB vector search with RAG. Users will use the catalog to place digital orders that a Viam robot will fulfill in a store setting.
