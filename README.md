@@ -40,7 +40,24 @@ _List all the team members and summarize the contributions each member made to t
 
 # Demonstration Script
 
-_Demonstration script (or link to script) goes here_
+``` javascript
+V1__add_new_field_to_index.yaml
+---
+- type: REINDEX
+  src_index: old_index
+  dest_index: new_index
+  transform:
+    remove: oldField
+    add:
+      name: newField
+      mapping:
+        type: keyword
+- type: ALIAS
+  alias: active_index
+  action: swap
+  source_index: old_index
+  target_index: new_index
+  ```
 
 _The demonstration script should provide all the information required for another MongoDB SA to deliver your demonstration to a prospect. This should include:_
 
