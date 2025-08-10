@@ -11,6 +11,26 @@
 Search using a Search migrator application powered by GenAI that converts Elasticsearch indexes and to Atlas Search components. The modernized product catalog on Atlas Search will also showcase powerful in-app search, and a chatbot powered by MongoDB vector search with RAG
 
 # Detailed Application Overview
+This project, Elastic‑Search‑Migrator, is designed to streamline the process of migrating data, indexes, mappings, or configurations between Elasticsearch clusters—especially across different versions or environments.
+
+Key capabilities include:
+
+Index & Mapping Migration
+Migrate existing indices while preserving mapping configurations and settings. Supports versioning logic, index renaming, and safe reindexing.
+
+Data Transfer & Transformation
+Move documents between source and target clusters—even across major version differences. Supports query-based filtering, field renaming, and optional transformations during migration.
+
+YAML/Script-based Migration Workflows
+Define migrations declaratively using versioned YAML or a structured format (e.g., V1__create_index.yaml). Enables consistent, audit-friendly migration scripts similar to database migration tooling like Flyway or Liquibase (inspired by tools like elasticsearch-migration by meemmiirr) 
+GitHub
+.
+
+Reindexing, Alias Management & Rolling Updates
+Automatically switch index aliases post-migration for zero-downtime deployment, support reindexing logic between indices, and handle schema updates gracefully.
+
+Flexible CLI or Programmatic Invocation
+Migrate via terminal commands or within CI/CD pipelines; optionally integrate into Node.js or Python workflows. (Similar in spirit to tools like elasticsearch-index-migrator with command-line options or the esm tool by medcl)
 
 -----
 
