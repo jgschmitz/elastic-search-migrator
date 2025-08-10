@@ -10,16 +10,9 @@
 # Overview
 Search using a Search migrator application powered by GenAI that converts Elasticsearch indexes and to Atlas Search components. The modernized product catalog on Atlas Search will also showcase powerful in-app search, and a chatbot powered by MongoDB vector search with RAG
 
-
-# Justification
-
-_Please explain why you decided to build the application/demonstration for this project. What inspired you? What problems does it solve or how will it make Presales activities easier?_
-_What MongoDB competitive differentiators (developer productivity, resiliency, scalability, etc.) does this demonstration showcase?_
-
 # Detailed Application Overview
 
 -----
-
 
 # Roles and Responsibilities
 
